@@ -1,0 +1,33 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="@+35PTMT~P,qp#+0L/;m">Player</variable><variable type="KIND_SpriteKind" id="*Li^zfm{;5i:!_,E78(]">Projectile</variable><variable type="KIND_SpriteKind" id="9Eb[t!29~E-TSw^H+?7]">Food</variable><variable type="KIND_SpriteKind" id="R]L)%H?#Ip5*L`YsBAm9">Enemy</variable><variable id="m9fW%:]ih,bXEe]_*YG)">cherry</variable><variable id="+O-qvTaC;`[BgZ#QI}P*">chicken</variable><variable id="BHG*7A%Bo3QA5A*Nikn6">mySprite</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="m9fW%:]ih,bXEe]_*YG)">cherry</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . 6 6 6 6 6 
+. . . . . . . . . 6 6 7 7 7 7 8 
+. . . . . . 8 8 8 7 7 8 8 6 8 8 
+. . e e e e c 6 6 8 8 . 8 7 8 . 
+. e 2 5 4 2 e c 8 . . . 6 7 8 . 
+e 2 4 2 2 2 2 2 c . . . 6 7 8 . 
+e 2 2 2 2 2 2 2 c . . . 8 6 8 . 
+e 2 e e 2 2 2 2 e e e e c 6 8 . 
+c 2 e e 2 2 2 2 e 2 5 4 2 c 8 . 
+. c 2 e e e 2 e 2 4 2 2 2 2 c . 
+. . c 2 2 2 e e 2 2 2 2 2 2 2 e 
+. . . e c c e c 2 2 2 2 2 2 2 e 
+. . . . . . . c 2 e e 2 2 e 2 c 
+. . . . . . . c e e e e e e 2 c 
+. . . . . . . . c e 2 2 2 2 c . 
+. . . . . . . . . c c c c c . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="m9fW%:]ih,bXEe]_*YG)">cherry</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">25</field></shadow></value><value name="y"><shadow type="positionPicker"><field name="index">45</field></shadow></value><next><block type="variables_set"><field name="VAR" id="+O-qvTaC;`[BgZ#QI}P*">chicken</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+e e e . . . . e e e . . . . 
+c d d c . . c d d c . . . . 
+c b d d f f d d b c . . . . 
+c 3 b d d b d b 3 c . . . . 
+f b 3 d d d d 3 b f . . . . 
+e d d d d d d d d e . . . . 
+e d f d d d d f d e . b f b 
+f d d f d d f d d f . f d f 
+f b d d b b d d 2 f . f d f 
+. f 2 2 2 2 2 2 b b f f d f 
+. f b d d d d d d b b d b f 
+. f d d d d d b d d f f f . 
+. f d f f f d f f d f . . . 
+. f f . . f f . . f f . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="+O-qvTaC;`[BgZ#QI}P*">chicken</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">120</field></shadow></value><value name="y"><shadow type="positionPicker"><field name="index">80</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
